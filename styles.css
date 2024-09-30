@@ -1,0 +1,353 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #0e031d;
+    color: #ffffff;
+}
+
+/* Container */
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* Navbar */
+.header {
+    background-color: #1b113f;
+    padding: 1.5rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+}
+
+.header nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.cta-btn {
+    background: linear-gradient(90deg, #6c2ff5, #a22eff);
+    color: white;
+    border: none;
+    padding: 0.75rem 2rem;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.secondary-btn {
+    background: transparent;
+    color: white;
+    border: 2px solid white;
+    padding: 0.75rem 2rem;
+    border-radius: 6px;
+    margin-left: 1rem;
+    cursor: pointer;
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(135deg, #15073f, #2b0678);
+    text-align: center;
+    padding: 6rem 0;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.hero .buttons {
+    margin-bottom: 2rem;
+}
+
+.powered-by p {
+    font-size: 1.1rem;
+}
+
+/* Features Section */
+.features {
+    padding: 4rem 0;
+    text-align: center;
+}
+
+.features h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.partner-logos {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.partner-logos img {
+    width: 150px;
+}
+
+/* Product Suite Section */
+.product-suite {
+    background-color: #1b0f40;
+    padding: 4rem 0;
+    text-align: center;
+}
+
+.product-suite h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.product-grid {
+    display: flex;
+    justify-content: space-around;
+}
+
+.product-card {
+    background-color: #2d154c;
+    padding: 2rem;
+    border-radius: 8px;
+    width: 200px;
+    text-align: center;
+}
+
+.product-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.product-card img {
+    width: 100px;
+    margin-bottom: 1rem;
+}
+
+/* Footer */
+/* Footer Section */
+footer {
+    background-color: #0e031d;
+    padding: 3rem 0;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    flex-wrap: wrap;
+}
+
+.footer-logo img {
+    width: 120px;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links ul li {
+    display: inline;
+    margin: 0 1.5rem;
+}
+
+.footer-links ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.footer-links ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer-social a {
+    margin: 0 0.5rem;
+}
+
+.footer-social a img {
+    width: 24px;
+}
+
+.footer-bottom {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    padding-top: 1rem;
+}
+
+.footer-bottom p {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 0.9rem;
+}
+
+
+/* second code  */
+
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0e031d;
+    color: white;
+}
+
+/* Header */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem;
+    background-color: #15073f;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+}
+
+.navbar ul li {
+    margin: 0 1rem;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Hero Section */
+.hero {
+    background-image: url('images/hero-bg.png');
+    background-size: cover;
+    text-align: center;
+    padding: 6rem 0;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.cta-buttons button {
+    margin: 0 1rem;
+    padding: 1rem 2rem;
+    border-radius: 6px;
+    font-size: 1.25rem;
+    color: white;
+    border: none;
+}
+
+.primary-btn {
+    background-color: #6c2ff5;
+}
+
+.secondary-btn {
+    background-color: transparent;
+    border: 1px solid white;
+}
+
+/* Product Suite Section */
+.product-suite {
+    background-color: #15073f;
+    padding: 4rem 0;
+    text-align: center;
+}
+
+.product-cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    background-color: #2b0b4d;
+    padding: 2rem;
+    border-radius: 8px;
+    width: 30%;
+}
+
+.card img {
+    width: 100%;
+}
+
+/* Blog Section */
+.blog {
+    background-color: #0e031d;
+    padding: 4rem 0;
+}
+
+.blog-posts {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Reviews Section */
+.reviews {
+    background-color: #15073f;
+    padding: 4rem 0;
+}
+
+.review-grid {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Community Section */
+.community {
+    background-color: #0e031d;
+    padding: 4rem 0;
+}
+
+.community-avatars {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Partners Section */
+.partners {
+    background-color: #15073f;
+    padding: 4rem 0;
+}
+
+.partner-logos {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* CTA Section */
+.cta-section {
+    background-color: #15073f;
+    padding: 4rem 0;
+    text-align: center;
+}
+
+.cta-btn {
+    background: linear-gradient(90deg, #6c2ff5, #a22eff);
+    color: white;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 1.25rem;
+}
+
+
